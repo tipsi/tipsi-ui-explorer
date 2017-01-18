@@ -1,7 +1,7 @@
 {
   "name": "tipsi-ui-explorer",
   "version": "0.0.1",
-  "description": "The UIExplorer is a sample app that showcases React Native views and modules",
+  "description": "The UIExplorer is a sample app that showcases your React Native components and modules",
   "main": "src/index.js",
   "bin": {
     "uiexplorer": "./bin/uiexplorer.js"
