@@ -25,7 +25,7 @@ export default class Page extends Component {
           <ScrollView
             style={styles.wrapper}
             keyboardDismissMode="interactive"
-            keyboardShouldPersistTaps
+            keyboardShouldPersistTaps="always"
             automaticallyAdjustContentInsets>
             {children}
             {!noSpacer &&

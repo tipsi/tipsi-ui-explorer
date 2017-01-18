@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "The UIExplorer is a sample app that showcases React Native views and modules",
   "main": "src/index.js",
+  "bin": {
+    "uiexplorer": "./bin/uiexplorer.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +28,10 @@
   },
   "homepage": "https://github.com/tipsi/tipsi-ui-explorer#readme",
   "dependencies": {
-    "react-native-json-tree": "^0.1.0"
+    "cfonts": "^1.0.2",
+    "commander": "^2.9.0",
+    "react-native-json-tree": "^0.1.0",
+    "shelljs": "^0.7.6"
   },
   "devDependencies": {
     "eslint": "^3.13.1",

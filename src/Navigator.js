@@ -6,7 +6,7 @@ import Example from './Example'
 
 const reducer = createNavigationReducer({
   index: 0,
-  routes: [{ key: 'List', title: 'Tipsi UI Kit' }],
+  routes: [{ key: 'List', title: 'UI Explorer' }],
 })
 
 const { CardStack, Header } = NavigationExperimental

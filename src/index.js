@@ -1,2 +1,2 @@
-export { default } from './core/Root'
-export { register } from 'utils/register'
+export { default } from './Root'
+export { default as register } from './utils/register'

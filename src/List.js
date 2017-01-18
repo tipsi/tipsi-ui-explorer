@@ -75,7 +75,7 @@ export default class List extends Component {
           renderSectionHeader={this.renderSectionHeader}
           enableEmptySections
           keyboardDismissMode="on-drag"
-          keyboardShouldPersistTaps
+          keyboardShouldPersistTaps="always"
           automaticallyAdjustContentInsets={false}
         />
       </View>
