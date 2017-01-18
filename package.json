@@ -1,0 +1,39 @@
+{
+  "name": "tipsi-ui-explorer",
+  "version": "0.0.1",
+  "description": "The UIExplorer is a sample app that showcases React Native views and modules",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tipsi/tipsi-ui-explorer.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "ui",
+    "explorer",
+    "uiexplorer",
+    "ui-explorer"
+  ],
+  "author": "Tipsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tipsi/tipsi-ui-explorer/issues"
+  },
+  "homepage": "https://github.com/tipsi/tipsi-ui-explorer#readme",
+  "dependencies": {
+    "react-native-json-tree": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-tipsi": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-test-renderer": "*"
+  }
+}
