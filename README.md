@@ -1,2 +1,13 @@
 # tipsi-ui-explorer
-The UIExplorer is a sample app that showcases React Native views and modules
+
+```
+                                                ___
+ __  __   __             __    __  _   _____   /\_ \      ___    _ __     __    _ __
+/\ \/\ \ /\_\          / ,.`\ /\ \/'\ /\ '__`\ \//\ \    / __`\ /\` __\ / ,.`\ /\` __\
+\ \ \_\ \\/\ \        /\  __/ \/>  </ \ \ \_\ \  \_\ \_ /\ \_\ \\ \ \/ /\  __/ \ \ \/
+ \ \____/ \ \ \       \ \____\ /\_/\_\ \ \ ,__/  /\____\\ \____/ \ \_\ \ \____\ \ \_\
+  \/___/   \/_/        \/____/ \//\/_/  \ \ \/   \/____/ \/___/   \/_/  \/____/  \/_/
+                                         \/_/
+```
+
+The UIExplorer is a sample app that showcases your React Native components and modules.
