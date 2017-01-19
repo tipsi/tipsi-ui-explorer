@@ -6,12 +6,15 @@ var path = require('path')
 var shell = require('shelljs')
 var cfonts = require('cfonts')
 var program = require('commander')
+var init = require('../cli/init')
 
 program
   .version(pkg.version)
   .option('-h, --host <host>', 'host to listen on')
   .option('-p, --port <port>', 'port to listen on')
   .option('-c, --config-dir [dir-name]', 'uiexplorer config directory')
+  .option('-i, --init', 'init uiexplorer in project')
+  .option('-f, --force', 'force init')
   .parse(process.argv)
 
 
@@ -22,6 +25,10 @@ cfonts.say('UI Explorer', {
 
 var projectDir = path.resolve()
 var configDir = path.resolve(program.configDir || './uiexplorer')
+
+if (program.init) {
+  return init({ force: program.force })
+}
 
 shell.exec([
   'node node_modules/react-native/local-cli/cli.js start',
