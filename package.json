@@ -7,7 +7,7 @@
     "uiexplorer": "./bin/uiexplorer.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci": ".ci/local-ci.sh"
   },
   "repository": {
     "type": "git",
