@@ -16,9 +16,14 @@
     "babel-preset-react-native": "1.9.1",
     "jest": "18.1.0",
     "react-test-renderer": "~15.4.0",
+    "tipsi-appium-helper": "^1.1.0",
     "tipsi-ui-explorer": "file:../"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "testRegex": "/__tests__/unit/.*.test.js$",
+    "transformIgnorePatterns": [
+      "/node_modules\/(?!tipsi-ui-explorer)/"
+    ]
   }
 }

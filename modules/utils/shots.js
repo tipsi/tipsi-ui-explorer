@@ -1,12 +1,11 @@
 import renderer from 'react-test-renderer'
 import register from './register'
-import '../../examples'
 
 const { describe, it, expect } = global
 
 export default ({ suit = 'UIExplorer', storyRegex } = {}) => {
   if (typeof describe !== 'function') {
-    throw new Error('\'testStorySnapshots\' is intended only to be used inside jest')
+    throw new Error('\'UIExplorerShots\' is intended only to be used inside jest')
   }
 
   const { list } = register
