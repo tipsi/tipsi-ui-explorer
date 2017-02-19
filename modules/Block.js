@@ -140,5 +140,6 @@ const styles = StyleSheet.create({
   children: {
     flex: 1,
     margin: 10,
+    alignItems: 'center',
   },
 })

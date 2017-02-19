@@ -1,10 +1,11 @@
 {
   "testsGlob": "./__tests__/e2e/*.test.js",
+  "register": "./__tests__/e2e/setup",
   "ios": {
-    "appPath": "./ios/build/Build/Products/Release-iphonesimulator/example.app",
+    "appPath": "./ios/build/Build/Products/Debug-iphonesimulator/example.app",
     "noReset": true
   },
   "android": {
-    "appPath": "./android/app/build/outputs/apk/app-release.apk"
+    "appPath": "./android/app/build/outputs/apk/app-debug.apk"
   }
 }

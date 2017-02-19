@@ -5,7 +5,7 @@ import { register } from 'tipsi-ui-explorer'
 register.addExample({
   type: 'components',
   title: '<Button />',
-  description: 'Button component',
+  description: 'A basic button component that should render nicely on any platform.',
   examples: [{
     title: 'Title',
     description: 'Prop: title (String)',
